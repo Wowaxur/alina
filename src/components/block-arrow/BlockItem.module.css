@@ -1,0 +1,38 @@
+.blockBreak{
+    height: 30px;
+    position: relative;
+    margin-top: -20px;
+}
+.span {
+    width: 17px;
+    height: 24px;
+}
+.span::after {
+    /* your styles here */
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 22%; /* increased from 10px to 20px */
+    width: 25%; /* reduced from 50% to 40% */
+    height: 1px;
+    background: linear-gradient(to left, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+}
+
+.span::before {
+    /* your styles here */
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 22%; /* increased from 0 to 20px */
+    width: 25%; /* reduced from 50% to 40% */
+    height: 1px;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+}
+.svgArrow {
+    padding-top: 5px;
+    width: 17px;
+    height: 17px;
+    top: 2px;
+    fill: rgb(14, 20, 24);
+    position: relative;
+}
