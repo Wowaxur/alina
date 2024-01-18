@@ -20,10 +20,8 @@ code {
     monospace;
 }
 footer{
-  background-color: white;
-
   padding: 5px;
   text-align: center;
-  color: rgb(44, 44, 44);
+  color: rgb(159, 157, 157);
   background: rgba(229, 227, 227, 0.12);
 }
