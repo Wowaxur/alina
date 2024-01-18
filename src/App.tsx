@@ -55,7 +55,9 @@ class App extends React.Component {
                     </div>
 
                 </div>
-
+                <footer>
+                    Агентство недвижимости «Свои на юге»
+                </footer>
             </div>
         );
     }
