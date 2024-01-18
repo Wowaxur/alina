@@ -6,7 +6,6 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import SvoiLoogo from './components/images/logo_2.png'
-import VkLogo from './components/images/vk.svg'
 class App extends React.Component {
     render() {
         return (
@@ -56,8 +55,7 @@ class App extends React.Component {
                     </div>
 
                 </div>
-                <footer className={'footer'}>Агентство недвижимости «Свои на юге»
-                </footer>
+
             </div>
         );
     }
