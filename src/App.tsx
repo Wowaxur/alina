@@ -38,18 +38,15 @@ class App extends React.Component {
                     </div>*/}
 
                     <div className={'BlockContact'}>
-                    <a rel={"noreferrer"} href={'https://www.instagram.com/svoi.live/'} target={"_blank"} className={"Instagram"}>
+                    <a rel={"noreferrer"} href={'https://www.instagram.com/alina_tvoi_dom/'} target={"_blank"} className={"Instagram"}>
                         <InstagramIcon className={'iconInst'}/>
                         Instagram</a>
                 </div>
                     <div className={'BlockContact'}>
-                        <a rel={"noreferrer"}  href={'https://t.me/+4YItH4K3uuk5NTk6'} target={"_blank"} className={"Telegram"}>
+                        <a rel={"noreferrer"}  href={'https://t.me/+79284082605'} target={"_blank"} className={"Telegram"}>
                             <TelegramIcon className={'iconTg'}/>
                             Telegram</a>
                     </div>
-                {/*    <div className={'BlockContact'}>
-                    <a rel={"noreferrer"} href={'https://vk.com/svoi.live'} className={"Link"} target={"_blank"}> <img src={VkLogo} alt={''} className={'vkLogo'}/> </a>
-                </div>*/}
                     <div className={'BlockContact'}>
                         <a rel={"noreferrer"} href={'https://svoi.live'} className={"Link"} target={"_blank"}> <img className={'SvoiLogo'} alt={''} src={SvoiLoogo} />
                       </a>
