@@ -9,7 +9,8 @@ import SvoiLoogo from './components/images/logo_2.png'
 class App extends React.Component {
     render() {
         return (
-            <div className="main">
+            <div>
+            <main className="main">
             <div className={'Image'}>
             <img className={'MainImage'} src={MainImg} alt={''}/> </div>
                 <div className={"Name"}>
@@ -56,6 +57,10 @@ class App extends React.Component {
 
                 </div>
 
+            </main>
+                <footer>
+                    Агентство недвижимости «Свои на юге»
+                </footer>
             </div>
         );
     }
