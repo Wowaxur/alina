@@ -15,7 +15,6 @@ class App extends React.Component {
             <img className={'MainImage'} src={MainImg} alt={''}/> </div>
                 <div className={"Name"}>
                     <h3 className={'NamePerson'}>Алина Гугасян</h3>
-                    <p>Руководитель партнерского отдела   </p>
                     <p>АН «Свои на юге»</p>
                     <p> г. Краснодар</p>
                 </div>
