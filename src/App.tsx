@@ -5,7 +5,7 @@ import MainImg from './components/images/mainImg.webp'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import SvoiLoogo from './components/images/logo_2.png'
+import SvoiLoogo from './components/images/logo_2.webp'
 class App extends React.Component {
     render() {
         return (
